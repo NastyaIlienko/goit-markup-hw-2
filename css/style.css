@@ -1,49 +1,45 @@
 
 :root {
     --color-text: #2E2F42;
-    --color-backround: #fff;
     --color-light: #FFFFFF;
     --color-btn: #4D5AE5;
     --color-contacts: #434455;
     --color-footer: #E7E9FC;
+    --color-grey: #F4F4FD;
+    --color-backround: #F5F5F5;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: var(--color-backround);
+    background-color: var(--color-light);
 }
     
 
 
 /* header css 2 pages */
 
-.link-webstudio {
+.link-webstudio
+ {
 font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height:1.13x;
+line-height:1.13;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--color-text);
 text-decoration: none;
 }
 
- .link-webstudio span {
+.link-webstudio span {
  color: var(--color-btn);
  }
 
+.list{
+list-style: none;
+ }
 
-
-.link{
-    font-family: "Roboto", sans-serif;
-
-}
-.list {
-    list-style: none;
-}
-
-.header-link {
-font-family: inherit;
+.header-link
+{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -52,8 +48,14 @@ color: var(--color-text);
 text-decoration: none;
 }
 
-.header-mail {
-font-family: inherit;
+.header-link:hover,
+.header-link:focus 
+{
+color: var(--color-btn);
+}
+
+.header-mail
+{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -61,8 +63,14 @@ letter-spacing: 0.02em;
 color: var(--color-contacts);
 text-decoration: none;
 }
-.header-phone {
-font-family: inherit;
+.header-mail:hover,
+.header-mail:focus
+{
+color:var(--color-btn);
+}
+
+.header-phone
+{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -70,6 +78,13 @@ letter-spacing: 0.02em;
 color: var(--color-contacts);
 text-decoration: none;
 }
+
+.header-phone:hover,
+.header-phone:focus
+{
+color: var(--color-btn);
+}
+
 
 /* tittles */
 
@@ -89,53 +104,75 @@ text-decoration: none;
 
 /* button-css 2 pages */
 
-
-.btn-all:hover{
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-border-radius: 4px;
-background: var(--color-btn);
-color: var(--color-light);
-}
-
-.btn-orderservice:hover{
-font-family: inherit;
+.btn-orderservice
+{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.04em;
 background:var(--color-btn);
-color: var(--color-light)
+color:var(--color-light);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
- }
+}
 
-.btn-list:hover {
-font-family: inherit;
-font-weight:500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-background-color: var(--color-btn);
-color:var(--color-light);
-border: 1px solid var(--color-light);
-border-radius: 4px;
-list-style: none;
+.btn-orderservice:hover,
+.btn-orderservice:focus
+{
+color: var(--color-light);
+cursor: pointer;
 }
-.our-team{
+
+.btn-all
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background-color: var(--color-btn);
+    color: var(--color-light);
+}
+
+.btn-all:hover,
+.btn-all:focus{
+    color: var(--color-light);
+    background-color: var(--color-btn);
+    cursor: pointer;
+}
+
+
+
+.btn-website,
+.btn-app,
+.btn-design,
+.btn-marketing
+ {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background: var(--color-grey);
+    color: var(--color-btn);
+        
+}
+
+.btn:hover,
+.btn:focus
+{
+ color: var(--color-btn);
+cursor: pointer;
+}
+
+.our-team 
+{
 background:var(--color-backround);
-}
-.team-item {
- background:var(--color-backround);
 }
 
 /* tittles and texts css 2 pages */
 
 .tittle-effective-solutions{
-font-family: inherit;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -149,7 +186,6 @@ background: var(--color-text);
 
 
 .tittle-gallery {
-font-family: inherit;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -158,7 +194,6 @@ color: var(--color-text);
 }
 
 .tittle-top {
-font-family: inherit;
 font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
@@ -168,7 +203,6 @@ color: var(--color-text);
 }
 
 .text-top{
-font-family: inherit;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -176,15 +210,18 @@ color:var(--color-contacts);
 
 }
 
-.gallery-link {
-    text-decoration: none;
+.gallery-link
+ {
+text-decoration: none;
 }
 /* footer css 2 pages */
 
-.footer {
+.footer
+{
 background: var(--color-text);
 }
-.link-webstudio-footer{
+.link-webstudio-footer
+{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -195,12 +232,12 @@ color: var(--color-footer);
 text-decoration: none;
 }
 
-.link-webstudio-footer span {
-
-    color: var(--color-btn);
+.link-webstudio-footer span 
+{
+color: var(--color-btn);
 }
-.text-footer {
-font-family: inherit;
+.text-footer
+{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
