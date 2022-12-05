@@ -54,38 +54,6 @@ text-decoration: none;
 color: var(--color-btn);
 }
 
-.header-mail
-{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-contacts);
-text-decoration: none;
-}
-.header-mail:hover,
-.header-mail:focus
-{
-color:var(--color-btn);
-}
-
-.header-phone
-{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--color-contacts);
-text-decoration: none;
-}
-
-.header-phone:hover,
-.header-phone:focus
-{
-color: var(--color-btn);
-}
-
-
 /* tittles */
 
 .visually-hidden {
